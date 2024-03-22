@@ -1,0 +1,17 @@
+getResponse.py_dict[Authorization]   = Bearer 0123456789ABCDEF
+getResponse.py_object_hex = 8004952e000000000000007d948c0d417574686f72697a6174696f6e948c17426561726572203031323334353637383941424344454694732e
+
+[277607:277607:20240322,132156.888853:ERROR elf_dynamic_array_reader.h:64] tag not found
+Please submit a bug report to https://github.com/modularml/mojo/issues and include the crash backtrace along with all the relevant source codes.
+Stack dump:
+0.      Program arguments: /home/johnsoe1/.modular/pkg/packages.modular.com_max/bin/mojo /home/johnsoe1/EzMojo/py_pickle/my_pickle.mojo
+Stack dump without symbol names (ensure you have llvm-symbolizer in your PATH or set the environment var `LLVM_SYMBOLIZER_PATH` to point to it):
+0  mojo                 0x00005d3a45c974c7
+1  mojo                 0x00005d3a45c9509e
+2  mojo                 0x00005d3a45c97b9f
+3  libc.so.6            0x0000743dcc842990
+4  libpython3.11.so.1.0 0x0000743db99c97d8 _Py_Dealloc + 8
+5  libpython3.11.so.1.0 0x0000743db99b5d0d
+6  libpython3.11.so.1.0 0x0000743db99bb38c
+7  libpython3.11.so.1.0 0x0000743d4c053c6d
+Segmentation fault (core dumped)
