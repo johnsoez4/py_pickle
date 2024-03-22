@@ -35,7 +35,6 @@ struct MyStruct:
         """
         to_pickle:
             The following line returns a valid pickled value, prints it, then crashes.
-            Error: [266870:266870:20240322,114440.325665:ERROR elf_dynamic_array_reader.h:64] tag not found
             ...
             Segmentation fault (core dumped)
         """
